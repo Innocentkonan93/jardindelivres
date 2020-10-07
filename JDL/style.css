@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    border-radius: 3px;
+  }
+
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+
+    text-decoration: none;
+    margin: 0px 40px;
+  }
+  
+  li a:hover {
+    background-color: #621345;
+    border-radius: 20px;
+    color: #FFF;
+  }
+
